@@ -595,6 +595,18 @@ video {
   width: 100%;
 }
 
+.w-0 {
+  width: 0px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
 .max-w-\[300px\] {
   max-width: 300px;
 }
@@ -691,6 +703,14 @@ video {
 
   .sm\:w-\[350px\] {
     width: 350px;
+  }
+
+  .sm\:w-full {
+    width: 100%;
+  }
+
+  .sm\:max-w-\[300px\] {
+    max-width: 300px;
   }
 
   .sm\:px-0 {
